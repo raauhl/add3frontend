@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  app:
+    container_name: add3frontend
+    image: add3frontend
+    build:
+      context: .
+    ports:
+      - 8080:80
